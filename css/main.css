@@ -1,4 +1,10 @@
 html {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,ddf1f9+69,a0d8ef+100 */
+  background: #feffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 69%, #a0d8ef 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 69%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 69%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
 
 }
 
@@ -10,11 +16,19 @@ nav {
 }
 /* Header */
 
+header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 h1 {
+  font-size: 6rem;
   font-weight: 600;
 }
 
 /* About Company */
+
+
 
 .about {
   /*background-color: #e3f2fd;*/
@@ -58,11 +72,30 @@ p.card-title.price {
   overflow: hidden;
 }
 
+#products div.card-image {
+  max-height: 100%;
+}
+
 #products div.card-image img {
-  top: -75px;
+  top: -60px;
 }
 
 #products div.card-action {
-  /*background-color: transparent;*/
-  /*border: none;*/
+  background-color: transparent;
+  border: none;
+}
+
+#products div.card.small.hoverable {
+  background-color: rgb(253,253,253);
+}
+
+/* Contact Info */
+
+#contact {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#contact h2 {
+  font-weight: 600;
 }

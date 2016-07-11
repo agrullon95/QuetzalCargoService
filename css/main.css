@@ -53,3 +53,16 @@ p.card-title.price {
   font-size: 50px;
   margin: 0px;
 }
+
+#products div.card {
+  overflow: hidden;
+}
+
+#products div.card-image img {
+  top: -75px;
+}
+
+#products div.card-action {
+  /*background-color: transparent;*/
+  /*border: none;*/
+}

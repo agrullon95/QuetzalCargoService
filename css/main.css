@@ -50,8 +50,13 @@ h1 {
   margin-right: auto;
 }
 
+.storeName {
+  font-size: 1.4rem;
+}
+
 .address {
-  font-weight: 200;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
 
 /*#first-map {
@@ -98,4 +103,14 @@ p.card-title.price {
 
 #contact h2 {
   font-weight: 600;
+}
+
+#contact h4 {
+  font-weight: 200;
+}
+
+/* Footer */
+
+footer {
+  border-top: 2px solid #000000;
 }
